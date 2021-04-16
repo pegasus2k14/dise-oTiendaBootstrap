@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="../bootstrap-4.6.0-dist/css/bootstrap.min.css" > 
+    
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase&display=swap" rel="stylesheet"> 
+
+    <title>Hello, world!</title>
+
+     <style>
+       header{
+         background: url('img/portada.jpg');
+         height: 100vh;
+         background-size: cover;
+       }
+
+       header h1{
+        font-family: 'Delius Unicase', cursive;
+        color: #e4ab9a;
+       }
+
+       .fondoBlanco{
+         background: rgba(255, 255, 255, .7);
+       }
+
+       h2{
+        font-family: 'Delius Unicase', cursive;
+        color: white;
+        background:#e4ab9a;
+       }
+
+       .precio{
+        color: #e4ab9a;
+       }
+
+       .btnRosa{
+         background: #e4ab9a;
+         color: #fff;
+         border: 1px solid #e4ab9a;
+       }
+     </style>
+  </head>
+  <body>
+      <!--Barra de menu-->   
+      <nav class="bg-light sticky-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4 text-center p-2">
+               <img src="img/logo.png" alt="logo girl shop">
+            </div>
+            <div class="col-12 col-md-8 text-right">
+              <ul class="mb-0">
+                <li class="d-inline-block p-3"><a href="" class="lead text-secondary">incio</a></li>
+                <li class="d-inline-block p-3"><a href="" class="lead text-secondary">Tienda</a></li>
+                <li class="d-inline-block p-3"><a href="" class="lead text-secondary">Rebajas</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>  
+
+      <!--Header de la pagina-->
+      <header>
+        <div class="container h-100">
+          <div class="row h-100">
+            <div class="col-12 h-auto text-center align-self-center fondoBlanco py-5">
+              <h1 class="display-1">Girl Shop</h1>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="container">
+          <div class="row py-5">
+            <div class="col-12 text-center py-4">
+                <h2 class="d-inline-block px-2">Tienda</h2>
+            </div>
+            <div class="col-12 col-md-4 text-center">
+                <img src="img/producto1.png" alt="Calcetas" class="img-fluid">
+                <h3 class="py-3">Calcetines</h3>
+                <span class="d-block lead font-weight-bolder pb-3 precio">$10<sup>US</sup></span>
+                <button class="btnRosa px-5 py-2">Comprar</button>
+            </div>
+            <div class="col-12 col-md-4 text-center">
+              <img src="img/producto2.png" alt="Crema" class="img-fluid">
+              <h3 class="py-3">Crema</h3>
+              <span class="d-block lead font-weight-bolder pb-3 precio">$10<sup>US</sup></span>
+              <button class="btnRosa px-5 py-2">Comprar</button>
+          </div>
+          <div class="col-12 col-md-4 text-center">
+              <img src="img/producto3.png" alt="Crema" class="img-fluid">
+              <h3 class="py-3">Cera depiladora</h3>
+              <span class="d-block lead font-weight-bolder pb-3 precio">$10<sup>US</sup></span>
+              <button class="btnRosa px-5 py-2">Comprar</button>
+          </div>
+          </div>
+        </div>
+
+      </main>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="../bootstrap-4.6.0-dist/js/jquery.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="../bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>
